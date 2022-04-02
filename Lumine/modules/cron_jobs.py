@@ -8,7 +8,7 @@ from telegram.ext.commandhandler import CommandHandler
 from telegram.update import Update
 from telegram.ext.callbackcontext import CallbackContext
 
-from Lumine import DB_NAME, OWNER_ID, dispatcher, LOGGER as log, BACKUP_PASS
+from Lumine import OWNER_ID, dispatcher, LOGGER as log, BACKUP_PASS
 from Lumine.modules.helper_funcs.chat_status import owner_plus
 
 @owner_plus

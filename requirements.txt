@@ -46,3 +46,4 @@ pretty_errors
 tswift
 PyYAML
 humanize
+google-trans-new
