@@ -1,41 +1,42 @@
-![AstrakoBot](https://i.imgur.com/1oah5E2.jpg)
-# AstrakoBot 
+![Lumine](https://telegra.ph/file/7723370b4e33f2914397a.png)
+# Lumine
 <p align="center">
-<a href="https://www.codacy.com/gh/Astrako/AstrakoBot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Astrako/AstrakoBot&amp;utm_campaign=Badge_Grade" alt="Codacy Badge">
+<a href="https://www.codacy.com/gh/LightLegendXR/Lumine/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LightLegendXR/Lumine&amp;utm_campaign=Badge_Grade" alt="Codacy Badge">
 <img src="https://app.codacy.com/project/badge/Grade/972e73015aaa4096bf109a79acae8afb" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="Libraries.io dependency status for GitHub repo"> <img src="https://img.shields.io/librariesio/github/Astrako/AstrakoBot?style=flat&logo=github&color=red" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot/network/members" alt="GitHub stars"> <img src="https://img.shields.io/github/stars/Astrako/AstrakoBot?style=flat&logo=github&color=yellow" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/Astrako/AstrakoBot" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" </a>
+<a href="http://hits.dwyl.com/LightLegendXR/Lumine" alt="HitCount"> <img src="http://hits.dwyl.com/LightLegendXR/Lumine.svg" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine/network/members" alt="GitHub stars"> <img src="https://img.shields.io/github/stars/LightLegendXR/Lumine?style=flat&logo=github&color=yellow" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/LightLegendXR/Lumine" /> </a>
 </p>
 <p align="center">
-<a href="https://github.com/Astrako/AstrakoBot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/Astrako/AstrakoBot" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/Astrako/AstrakoBot?style=flat&logo=github" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/Astrako/AstrakoBot?color=success" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/Astrako/AstrakoBot?style=flat&logo=github&color=red" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/Astrako/AstrakoBot?style=flat&logo=github&color=success" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/LightLegendXR/Lumine" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/LightLegendXR/Lumine?style=flat&logo=github" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/LightLegendXR/Lumine?color=success" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/LightLegendXR/Lumine?style=flat&logo=github&color=red" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/LightLegendXR/Lumine?style=flat&logo=github&color=success" /> </a>
 </p>
 <p align="center">
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="Python supported versions"> <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="Ptb version"> <img src="https://img.shields.io/badge/Ptb-v13.11-blue" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/Astrako/AstrakoBot" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/github/license/Astrako/AstrakoBot?style=flat&logo=github&color=success" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="Python supported versions"> <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="pypi version"> <img src="https://img.shields.io/badge/pypi-v13.8.1-blue" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/LightLegendXR/Lumine" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/github/license/LightLegendXR/Lumine?style=flat&logo=github&color=success" /> </a>
 </p>
 <p align="center">
-<a href="" alt="Astrako"> <img src="https://img.shields.io/badge/built%20by-Astrako-blue" /> </a>
-<a href="https://github.com/Astrako/AstrakoBot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/maintained%3F-yes-blue.svg" /> </a>
+<a href="" alt="LightLegendXR"> <img src="https://img.shields.io/badge/built%20by-LightLegendXR-blue" /> </a>
+<a href="https://github.com/LightLegendXR/Lumine/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/maintained%3F-yes-blue.svg" /> </a>
 <a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-blue.svg" /> </a>
 </p>
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a SaitamaRobot fork, AstrakoBot evolved further and was built to be more robust. 
+Originally a AstrakoBot fork, Lumine evolved further and was built to be more robust. 
 
-* Bot link:  <a href="https://t.me/AstrakoBot" alt="AstrakoBot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-AstrakoBot-blue" /> </a>
+* Bot link:  <a href="https://t.me/MissLumineBot" alt="Lumine"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Lumine-yellow" /> </a>
 
-* Support group:  <a href="https://t.me/AstrakoBotSupport" alt="AstrakoBotSupport"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+* Support group:  <a href="https://t.me/LumineBotSupport" alt="LumineBotSupport"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
-* Recommended federation:  <a href="https://t.me/ALTF4Fed" alt="ALTF4Fed"> <img src="https://img.shields.io/badge/🚫-ALTF4Fed-red" /> </a>
+* Recommended federation:  <a href="https://t.me/LLXRFed/3" alt="LLXRFed"> <img src="https://img.shields.io/badge/🚫-LLXRFed-red" /> </a>
 
 In support group you can ask for help, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
@@ -43,10 +44,24 @@ In support group you can ask for help, discover/request new features, report bug
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @AstrakoBotSupport to your own support chat
+ - Edit any mentions of @LumineBotSupport to your own support chat
  - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors
  
+ 
+<details>
+  <summary>Steps to deploy on Heroku !! </summary>
+
+```
+Fill in all the details, Deploy!
+Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
+Turn on worker dyno (Don't worry It's free :D) & Webhook
+Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
+```
+
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LightLegendXR/Lumine.git)
+
+</details>   
 <details>
   <summary>Steps to self Host!! </summary>
 
@@ -59,7 +74,7 @@ This is because markdown parsing is done by iterating through a dict, which is o
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `AstrakoBot` folder, alongside the `__main__.py` file. 
+This file should be placed in your `Lumine` folder, alongside the `__main__.py` file. 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of
 your other settings.
 
@@ -68,7 +83,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from AstrakoBot.sample_config import Config
+from Lumine.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
@@ -154,7 +169,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from AstrakoBot import dispatcher`.
+`from Lumine import dispatcher`.
 
 You can then add commands using the usual
 
@@ -174,15 +189,15 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run (Linux):
 
-`python3 -m AstrakoBot`
+`python3 -m Lumine`
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [AstrakoBotSupport](https://t.me/AstrakoBotSupport)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [LumineBotSupport](https://t.me/LumineBotSupport)
 
 
 ## Credits
-The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars) and [AnimeKaizoku](https://github.com/AnimeKaizoku)
+The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars), [Astrako](https://github.com/Astrako) and [AnimeKaizoku](https://github.com/AnimeKaizoku)
 All original credits go to Paul and AnimeKaizoku, Without their efforts, this fork would not have been possible!
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [AstrakoBotSupport](https://t.me/AstrakoBotSupport) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [LumineBotSupport](https://t.me/LumineBotSupport) or simply submit a pull request on the readme.
