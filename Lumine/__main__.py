@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/LumineSupport",
+                                url=f"https://t.me/LumineBotSupport",
                             ),
                         ],
                         [
