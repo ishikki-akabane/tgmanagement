@@ -246,16 +246,6 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://zhongli-setup.readthedocs.io/en/latest/",
-                            )
-                            InlineKeyboardButton(
-                                text="Website",
-                                url="https://zhongli-tele.netlify.app/",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
                                 text="Support Group",
                                 url="https://t.me/suppxd",
                             )
