@@ -74,16 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Waku waku !! 
-Hi {} san, I'm Anya Forger! 
-Anya is an Anime themed group management bot with many features
-
-You can find my list of available commands with /help.
+Konnichiwa !! 
+Hoi {} san, I'm Ruka Sarashina, Hajimemashite! 
+I'm an Anime themed group management bot built with many features.
+Haven't slept since:</b> <code>{}</code>.format(uptime)
 """
 
 HELP_STRINGS = """
 Hoi! My name is *{}*.
-Anya is a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
+Ruka is a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
 the things Anya can help you with.
 
 *Main* commands available:
@@ -243,6 +242,16 @@ def start(update: Update, context: CallbackContext):
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Getting started guide",
+                                url="https://zhongli-setup.readthedocs.io/en/latest/",
+                            )
+                            InlineKeyboardButton(
+                                text="Website",
+                                url="https://zhongli-tele.netlify.app/",
                             )
                         ],
                         [
