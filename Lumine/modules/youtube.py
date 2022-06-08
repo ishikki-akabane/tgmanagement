@@ -179,8 +179,8 @@ __mod_name__ = "YouTube"
 
 __command_list__ = ["youtube"]
 
-__handlers__ = [
-    YOUTUBE_HANDLER,
-    YOUTUBE_CALLBACKHANDLER
-]
+__handlers__ = [YOUTUBE_HANDLER]
+
+
+
 
