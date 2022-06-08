@@ -1,6 +1,7 @@
 import os, glob, json
 
 from datetime import datetime
+from Lumine import dispatcher
 from Lumine.modules.sql.clear_cmd_sql import get_clearcmd
 from telegram import Bot, Update, ParseMode, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, CallbackQueryHandler, CallbackContext, run_async
