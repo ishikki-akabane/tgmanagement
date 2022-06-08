@@ -178,9 +178,3 @@ __help__ = """ Use /youtube """
 __mod_name__ = "YouTube"
 
 __command_list__ = ["youtube"]
-
-__handlers__ = [YOUTUBE_HANDLER]
-
-
-
-
