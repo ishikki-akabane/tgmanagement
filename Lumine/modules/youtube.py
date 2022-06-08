@@ -172,3 +172,5 @@ YOUTUBE_CALLBACKHANDLER = CallbackQueryHandler(
 )
 dispatcher.add_handler(YOUTUBE_HANDLER)
 dispatcher.add_handler(YOUTUBE_CALLBACKHANDLER)
+
+__mod_name__ = "YouTube"
