@@ -74,26 +74,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Konnichiwa !! 
-Hoi {} san, I'm Ruka Sarashina, Hajimemashite! 
-I'm an Anime themed group management bot built with many features.
-Haven't slept since:</b> <code>{}</code>.format(uptime)
+ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ʜᴏɪ {} sᴀɴ, ɪ'ᴍ ʀᴜᴋᴀ sᴀʀᴀsʜɪɴᴀ, ʜᴀᴊɪᴍᴇᴍᴀsʜɪᴛᴇ! [✨]
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ ᴀs:
+❍ Wᴀrning sysᴛᴇʍ.
+❍ Flᴏᴏd ᴄᴏnᴛrᴏl sysᴛᴇʍ.
+❍ Nᴏᴛᴇ ᴋᴇᴇᴩing sysᴛᴇʍ.
+❍ Filᴛᴇrs ᴋᴇᴇᴩing sysᴛᴇʍ.
+❍ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
+━━━•❅•°•❈ - •°•❅•━━━
+*Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
 """
 
 HELP_STRINGS = """
-Hoi! My name is *{}*.
-Ruka is a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
-the things Anya can help you with.
-
-*Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
-
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
-{}
-And the following:
+Hi Bᴀᴇ! I'ʍ *Ruka Sarashina*
+I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw fun ᴇxᴛrᴀs! Hᴀvᴇ ᴀ lᴏᴏᴋ ᴀᴛ ᴛhᴇ fᴏllᴏwing fᴏr ᴀn idᴇᴀ ᴏf sᴏʍᴇ ᴏf ᴛhᴇ ᴛhings I ᴄᴀn hᴇlᴩ yᴏu wiᴛh.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -117,7 +114,7 @@ LUM_IMG= (
 Lumine_IMG = "https://te.legra.ph/file/f0264aa005658f91c47dd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Anya is hosted on its own server and require donations as of now but \
+Ruka is hosted on its own server and require donations as of now but \
 You can donate to the original writer of the Base code, @Ishikki_akabane
 There are two ways of supporting him; [Group](https://t.me/manhwarecommend)."""
 
@@ -238,7 +235,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Anya to your group",
+                                text="Add Ruka to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -247,7 +244,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url="https://t.me/suppxd",
+                                url="https://t.me/supppXD",
                             )
                         ],
                     ]
@@ -264,7 +261,7 @@ def start(update: Update, context: CallbackContext):
                   [ 
                        InlineKeyboardButton(
                              text="Report bug?",
-                             url="https://t.me/suppxd")
+                             url="https://t.me/supppXD")
                      ] 
                 ]
             ),
