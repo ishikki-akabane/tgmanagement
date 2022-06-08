@@ -62,19 +62,19 @@ def ban(update: Update, context: CallbackContext) -> str:
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
         if user_id == OWNER_ID:
-            message.reply_text("Trying to put me against God huh?")
+            message.reply_text("Trying to put me against my love huh?")
         elif user_id in DEV_USERS:
-            message.reply_text("I can't act against our own.")
+            message.reply_text("I can't act against the person who take care of me.")
         elif user_id in SUDO_USERS:
             message.reply_text(
-                "Fighting this sudo user here will put users lives at risk."
+                "Fighting this being here will put users lives at risk."
             )
         elif user_id in SUPPORT_USERS:
-            message.reply_text("Bring a developer user to fight a support user.")
+            message.reply_text("Bring an order from my support group to ban this user.")
         elif user_id in WHITELIST_USERS:
-            message.reply_text("Whitelist users cannot be banned.")
+            message.reply_text("Sorry, i can't ban my friends(actually they are whitelist user so i can't ban them")
         else:
-            message.reply_text("This user has immunity and cannot be banned.")
+            message.reply_text("This user is too sexy to be banned.")
         return log_message
     if message.text.startswith("/s"):
         silent = True
