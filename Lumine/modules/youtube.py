@@ -173,7 +173,10 @@ YOUTUBE_CALLBACKHANDLER = CallbackQueryHandler(
 dispatcher.add_handler(YOUTUBE_HANDLER)
 dispatcher.add_handler(YOUTUBE_CALLBACKHANDLER)
 
+__help__ = """ Use /youtube """
+
 __mod_name__ = "YouTube"
+
 __command_list__ = ["youtube"]
 
 __handlers__ = [
