@@ -164,7 +164,6 @@ def youtube_callback(update: Update, context: CallbackContext):
     
     if cleartime:
         context.dispatcher.run_async(delete, delmsg, cleartime.time)
-dispatcher.add_handler(YOUTUBE_HANDLER)
 
 YOUTUBE_HANDLER = DisableAbleCommandHandler(["youtube", "yt"], youtube, run_async = True)
 YOUTUBE_CALLBACKHANDLER = CallbackQueryHandler(
