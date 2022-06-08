@@ -174,3 +174,7 @@ dispatcher.add_handler(YOUTUBE_HANDLER)
 dispatcher.add_handler(YOUTUBE_CALLBACKHANDLER)
 
 __mod_name__ = "YouTube"
+__command_list__ = ["youtube"]
+
+
+
