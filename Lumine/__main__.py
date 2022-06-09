@@ -107,12 +107,7 @@ HELP_IMG = (
 )
 
 LUM_IMG= (
-          "https://te.legra.ph/file/f8f4c345365bac6de0993.mp4",
-          "https://te.legra.ph/file/e690403cba45611ca7daf.mp4",
-          "https://te.legra.ph/file/50bf031019f63482031df.mp4",
-          "https://te.legra.ph/file/b7ec631475e45dc946857.mp4",
-          "https://te.legra.ph/file/f38d064f1f2bd50e3e037.mp4",
-          "https://te.legra.ph/file/3999a427582d5e90db5bf.mp4",
+          "https://te.legra.ph/file/b37dae9dcd6b2a2cd1399.jpg",
           )
 
 Lumine_IMG = "https://telegra.ph/file/d9fd3e727627b10179308.jpg"
