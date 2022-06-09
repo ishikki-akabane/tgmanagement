@@ -206,7 +206,7 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nUser level: <b>god</b>"
+        text += "\n\nUser level: <b>Owner</b>"
         disaster_level_present = True
     elif user.id in DEV_USERS:
         text += "\n\nUser level: <b>developer</b>"
