@@ -256,7 +256,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                text="Help ❓",
-                               url="t.me/{}?start=help"
+                               url="t.me/rukaXD_bot?start=help"
                             ),
                         ],
                         
@@ -324,7 +324,7 @@ def help_button(update: Update, context: CallbackContext):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Here is the help for the *{}* module:\n".format(
+                "*⚊❮❮❮ ｢Help for {} module」❯❯❯⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
