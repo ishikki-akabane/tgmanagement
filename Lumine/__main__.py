@@ -99,12 +99,9 @@ I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw
 )
 
 HELP_IMG = (
-    "https://te.legra.ph/file/9b3f9cff62cda296279cc.mp4",
-    "https://te.legra.ph/file/3c0d8ff793282f2baab52.mp4",
-    "https://te.legra.ph/file/bc228cffc7a7f49f99b6b.mp4",
-    "https://te.legra.ph/file/497272cee475c5530c437.mp4",
-    "https://te.legra.ph/file/29b7ec90c705afe86b1a3.mp4",
-    "https://te.legra.ph/file/4f427193b86182fa07678.mp4",
+    "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
+    "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
+    "https://te.legra.ph/file/85f3b831e8230b6111004.mp4",
 )
 
 LUM_IMG= (
