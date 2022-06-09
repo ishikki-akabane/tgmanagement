@@ -232,7 +232,37 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     [
+                        [
+                            InlineKeyboardButton(
+                                text="☑️ Add me",
+                                url="t.me/{}?startgroup=true".format(
+                                    context.bot.username,
+                                ),
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Support",
+                                url=f"https://t.me/{SUPPORT_CHAT}",
+                            ),
+                            InlineKeyboardButton(
+                                text="Kanzaki",
+                                url="https://t.me/OnePunchUpdates",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Federation",
+                                url="https://t.me/OnePunchUpdates/29",
+                            ),
+                            InlineKeyboardButton(
+                            text="Command Help ❓", callback_data="help_back"
+                            ),
+                        ],
                         
+                    ],
+                ),
+            )
     else:
           update.effective_message.reply_video(
             random.choice(LUM_IMG), caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
