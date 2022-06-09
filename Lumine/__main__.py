@@ -232,41 +232,7 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [
-                            InlineKeyboardButton(
-                                text="Add Zhongli to your group",
-                                url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
-                                ),
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/manhwarecommend",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://zhongli-setup.readthedocs.io/en/latest/",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Website",
-                                url="https://zhongli-tele.netlify.app/",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Recommended Bot",
-                                url="https://t.me/nezuko13_bot",
-                            )
-                        ],
-                    ]
-                ),
-            )
+                        
     else:
           update.effective_message.reply_video(
             random.choice(LUM_IMG), caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
