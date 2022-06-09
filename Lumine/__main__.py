@@ -110,11 +110,11 @@ LUM_IMG= (
           "https://te.legra.ph/file/b37dae9dcd6b2a2cd1399.jpg",
           )
 
-Lumine_IMG = "https://telegra.ph/file/d9fd3e727627b10179308.jpg"
+Lumine_IMG = "https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Lumine is hosted on its own server and require donations as of now but \
-You can donate to the original writer of the Base code, @Kaneki_op
+Ruka is hosted on its own server and require donations as of now but \
+You can donate to the original writer of the Base code, @ishikki_akabane
 There are two ways of supporting him; [Group](https://t.me/manhwarecommend)."""
 
 IMPORTED = {}
