@@ -301,6 +301,8 @@ dispatcher.add_handler(MOONANIMATION_HANDLER)
 dispatcher.add_handler(CLOCKANIMATION_HANDLER)
 dispatcher.add_handler(BLOCKANIMATION_HANDLER)
 
+__help__ = "kill"
+
 __mod_name__ = "Animation"
 __command_list__ = [
     "love",
