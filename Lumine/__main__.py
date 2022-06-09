@@ -103,6 +103,7 @@ I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw
 HELP_IMG = (
     "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
     "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
+    "https://te.legra.ph/file/85f3b831e8230b6111004.mp4",
 )
 
 LUM_IMG= (
