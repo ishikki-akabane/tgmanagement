@@ -88,6 +88,7 @@ PM_START_TEXT = """
 ❍ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
 ━━━•❅•°•❈ - •°•❅•━━━
 *Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
+Type /help to see all the commands
 """
 
 
