@@ -74,10 +74,21 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is Zhongli! 
-I am a Genshin Impact themed group management bot.
+ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
 
-You can find my list of available commands with /help.
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ʜᴏɪ {} sᴀɴ, ɪ'ᴍ ʀᴜᴋᴀ sᴀʀᴀsʜɪɴᴀ, ʜᴀᴊɪᴍᴇᴍᴀsʜɪᴛᴇ! ✨
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ :
+❍ Wᴀrning sysᴛᴇʍ.
+❍ Flᴏᴏd ᴄᴏnᴛrᴏl sysᴛᴇʍ.
+❍ Nᴏᴛᴇ ᴋᴇᴇᴩing sysᴛᴇʍ.
+❍ Filᴛᴇrs ᴋᴇᴇᴩing sysᴛᴇʍ.
+❍ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
+━━━•❅•°•❈ - •°•❅•━━━
+
+*Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
+Type /help to see all the commands.
 """
 
 HELP_STRINGS = """
