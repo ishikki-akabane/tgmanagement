@@ -105,9 +105,7 @@ HELP_IMG = (
 )
 
 LUM_IMG= (
-          "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
-          "https://te.legra.ph/file/85f3b831e8230b6111004.mp4",
-          "https://te.legra.ph/file/ed7c44990f5a29f28cbae.mp4",
+          "https://te.legra.ph/file/b37dae9dcd6b2a2cd1399.jpg"
           )
 
 Lumine_IMG = "https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg"
