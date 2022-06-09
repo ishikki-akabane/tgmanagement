@@ -96,7 +96,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="Bots Logs 🙋‍♂️", url="https://t.me/logsforbots"
+            text="Bots LInlineKeyboardButtonogs 🙋‍♂️", url="https://t.me/logsforbots"
 
         ),
 
@@ -280,19 +280,39 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Ruka to your group",
+                                text="☑️ Add me",
                                 url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
+                                    context.bot.username,
                                 ),
-                            )
+                            ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url="https://t.me/supppXD",
-                            )
+                                text="Support",
+                                url=f"https://t.me/{SUPPORT_CHAT}",
+                            ),
+                            InlineKeyboardButton(
+                                text="Kanzaki",
+                                url="https://t.me/OnePunchUpdates",
+                            ),
                         ],
-                    ]
+                        [
+                            InlineKeyboardButton(
+                                text="🧾 Getting Started",
+                                url="https://t.me/OnePunchUpdates/29",
+                            ),
+                            InlineKeyboardButton(
+                                text="🗄 Source code",
+                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="☠️ Kaizoku Network",
+                                url="https://t.me/Kaizoku/4",
+                            ),
+                        ],
+                    ],
                 ),
             )
     else:
