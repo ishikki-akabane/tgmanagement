@@ -255,8 +255,8 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/OnePunchUpdates/29",
                             ),
                             InlineKeyboardButton(
-                               
-                                text="Command Help ❓", callback_data="help_back"
+                               text="Help ❓",
+                               url="t.me/{}?start=help"
                             ),
                         ],
                         
