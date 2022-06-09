@@ -255,8 +255,7 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/OnePunchUpdates/29",
                             ),
                             InlineKeyboardButton(
-                               text="Help ❓",
-                               url="t.me/rukaXD_bot?start=help"
+                            text="Command Help ❓", callback_data="help_back"
                             ),
                         ],
                         
