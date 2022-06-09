@@ -90,53 +90,6 @@ PM_START_TEXT = """
 *Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
 """
 
-buttons = [
-
-    [
-
-        InlineKeyboardButton(
-
-            text="Bots LInlineKeyboardButtonogs 🙋‍♂️", url="https://t.me/logsforbots"
-
-        ),
-
-        InlineKeyboardButton(
-
-            text="Support Group 💬", url="https://t.me/suppportXd"
-
-        ),
-
-    ],
-
-    [
-
-        InlineKeyboardButton(
-
-            text="Federation 🗒", url="https://t.me/luffyupdates"
-
-        ),
-
-        InlineKeyboardButton(
-
-            text="Command Help ❓", callback_data="help_back"
-
-        ),
-
-    ],
-
-    [
-
-        InlineKeyboardButton(
-
-            text="➕ Add Me To Your Group ➕",
-
-            url="t.me/Ruka0XDbot?startgroup=true",
-
-        ),
-
-    ],
-
-]
 
 HELP_STRINGS = """
 Hi Bᴀᴇ! I'ʍ *Ruka Sarashina*
