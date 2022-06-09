@@ -264,7 +264,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
           update.effective_message.reply_video(
-            random.choice(LUM_IMG), caption= "Hello !!, I'm Ruka Sarashina\n\n┏━━━━━━━━━━━━━━━━━━━\n┣• Python   :  3.9.7\n<b>┣• Uptime   :</b> <code>{}</code>\n┗━━━━━━━━━━━━━━━━━━━".format(
+            random.choice(LUM_IMG), caption= "Hello !!, I'm Ruka Sarashina\n\n┏━━━━━━━━━━━━━━━━━━━\n┣• Python   :  3.9.7\n<b>┣• Uptime   :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
