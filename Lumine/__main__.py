@@ -273,8 +273,8 @@ def start(update: Update, context: CallbackContext):
                 [
                   [ 
                        InlineKeyboardButton(
-                             text="Want Me?",
-                             url="https://t.me/WaifuGacha_bot/?start=Uo9fRdOYEY8mOpOrPcCqOJ5cOp5cDJWsPJ9cOJOsOpGmOcGoCJSrDo9z")
+                             text="Report bug?",
+                             url="https://t.me/suppportXd")
                      ] 
                 ]
             ),
