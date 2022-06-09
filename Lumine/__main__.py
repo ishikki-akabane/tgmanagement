@@ -76,7 +76,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
 ⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+
 ʜᴏɪ {} sᴀɴ, ɪ'ᴍ ʀᴜᴋᴀ sᴀʀᴀsʜɪɴᴀ, ʜᴀᴊɪᴍᴇᴍᴀsʜɪᴛᴇ! [✨]
+
 ⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
 ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ ᴀs:
 ❍ Wᴀrning sysᴛᴇʍ.
@@ -111,7 +113,7 @@ LUM_IMG= (
           "https://te.legra.ph/file/ed7c44990f5a29f28cbae.mp4",
           )
 
-Lumine_IMG = "https://te.legra.ph/file/f0264aa005658f91c47dd.jpg"
+Lumine_IMG = "https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Ruka is hosted on its own server and require donations as of now but \
