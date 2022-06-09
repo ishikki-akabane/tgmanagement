@@ -74,47 +74,54 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
-⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+Hi {}, my name is Zhongli! 
+I am a Genshin Impact themed group management bot.
 
-ʜᴏɪ {} sᴀɴ, ɪ'ᴍ ʀᴜᴋᴀ sᴀʀᴀsʜɪɴᴀ, ʜᴀᴊɪᴍᴇᴍᴀsʜɪᴛᴇ! [✨]
-
-⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
-ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ ᴀs:
-❍ Wᴀrning sysᴛᴇʍ.
-❍ Flᴏᴏd ᴄᴏnᴛrᴏl sysᴛᴇʍ.
-❍ Nᴏᴛᴇ ᴋᴇᴇᴩing sysᴛᴇʍ.
-❍ Filᴛᴇrs ᴋᴇᴇᴩing sysᴛᴇʍ.
-❍ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
-━━━•❅•°•❈ - •°•❅•━━━
-*Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
-Type /help to see all the commands
+You can find my list of available commands with /help.
 """
 
-
 HELP_STRINGS = """
-Hi Bᴀᴇ! I'ʍ *Ruka Sarashina*
-I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw fun ᴇxᴛrᴀs! Hᴀvᴇ ᴀ lᴏᴏᴋ ᴀᴛ ᴛhᴇ fᴏllᴏwing fᴏr ᴀn idᴇᴀ ᴏf sᴏʍᴇ ᴏf ᴛhᴇ ᴛhings I ᴄᴀn hᴇlᴩ yᴏu wiᴛh.
+Hey there! My name is *{}*.
+I'm a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
+the things I can help you with.
+
+*Main* commands available:
+ • /help: PM's you this message.
+ • /help <module name>: PM's you info about that module.
+ • /donate: information on how to donate!
+ • /settings:
+   • in PM: will send you your settings for all supported modules.
+   • in a group: will redirect you to pm, with all that chat's settings.
+{}
+And the following:
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
 HELP_IMG = (
-    "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
-    "https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4",
-    "https://te.legra.ph/file/85f3b831e8230b6111004.mp4",
+    "https://te.legra.ph/file/9b3f9cff62cda296279cc.mp4",
+    "https://te.legra.ph/file/3c0d8ff793282f2baab52.mp4",
+    "https://te.legra.ph/file/bc228cffc7a7f49f99b6b.mp4",
+    "https://te.legra.ph/file/497272cee475c5530c437.mp4",
+    "https://te.legra.ph/file/29b7ec90c705afe86b1a3.mp4",
+    "https://te.legra.ph/file/4f427193b86182fa07678.mp4",
 )
 
 LUM_IMG= (
-          "https://te.legra.ph/file/b37dae9dcd6b2a2cd1399.jpg"
+          "https://te.legra.ph/file/f8f4c345365bac6de0993.mp4",
+          "https://te.legra.ph/file/e690403cba45611ca7daf.mp4",
+          "https://te.legra.ph/file/50bf031019f63482031df.mp4",
+          "https://te.legra.ph/file/b7ec631475e45dc946857.mp4",
+          "https://te.legra.ph/file/f38d064f1f2bd50e3e037.mp4",
+          "https://te.legra.ph/file/3999a427582d5e90db5bf.mp4",
           )
 
-Lumine_IMG = "https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg"
+Lumine_IMG = "https://telegra.ph/file/d9fd3e727627b10179308.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Ruka is hosted on its own server and require donations as of now but \
-You can donate to the original writer of the Base code, @Ishikki_akabane
+Lumine is hosted on its own server and require donations as of now but \
+You can donate to the original writer of the Base code, @Kaneki_op
 There are two ways of supporting him; [Group](https://t.me/manhwarecommend)."""
 
 IMPORTED = {}
@@ -234,38 +241,42 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add me",
+                                text="Add Zhongli to your group",
                                 url="t.me/{}?startgroup=true".format(
-                                    context.bot.username,
+                                    context.bot.username
                                 ),
+                            )
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Support Group",
+                                url=f"https://t.me/manhwarecommend",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
-                            ),
-                            InlineKeyboardButton(
-                                text="Kanzaki",
-                                url="https://t.me/OnePunchUpdates",
-                            ),
+                                text="Getting started guide",
+                                url="https://zhongli-setup.readthedocs.io/en/latest/",
+                            )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Federation",
-                                url="https://t.me/OnePunchUpdates/29",
-                            ),
-                            InlineKeyboardButton(
-                            text="Command Help ❓", callback_data="help_back"
-                            ),
+                                text="Website",
+                                url="https://zhongli-tele.netlify.app/",
+                            )
                         ],
-                        
-                    ],
+                        [
+                            InlineKeyboardButton(
+                                text="Recommended Bot",
+                                url="https://t.me/nezuko13_bot",
+                            )
+                        ],
+                    ]
                 ),
             )
     else:
           update.effective_message.reply_video(
-            random.choice(LUM_IMG), caption= "Hello !!, I'm Ruka Sarashina\nI'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            random.choice(LUM_IMG), caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -273,8 +284,8 @@ def start(update: Update, context: CallbackContext):
                 [
                   [ 
                        InlineKeyboardButton(
-                             text="Report bug?",
-                             url="https://t.me/supppXD")
+                             text="Want Me?",
+                             url="https://t.me/WaifuGacha_bot/?start=Uo9fRdOYEY8mOpOrPcCqOJ5cOp5cDJWsPJ9cOJOsOpGmOcGoCJSrDo9z")
                      ] 
                 ]
             ),
@@ -324,7 +335,7 @@ def help_button(update: Update, context: CallbackContext):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮ ｢Help for {} module」❯❯❯⚊*\n".format(
+                "Here is the help for the *{}* module:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
