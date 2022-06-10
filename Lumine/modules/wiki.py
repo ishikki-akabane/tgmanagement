@@ -69,7 +69,7 @@ def wiki(update: Update, context: CallbackContext):
 WIKI_HANDLER = DisableAbleCommandHandler("wiki", wiki, run_async=True)
 dispatcher.add_handler(WIKI_HANDLER)
 
-__help__ = " • /wiki <query>: wikipedia your query"
+__help__ = " • `/wiki` <query>: wikipedia your query"
 
 __mod_name__ = "WiKi"
 
