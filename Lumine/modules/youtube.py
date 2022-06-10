@@ -175,7 +175,7 @@ dispatcher.add_handler(YOUTUBE_CALLBACKHANDLER)
 
 __help__ = """
  - /yt or /youtube <text>: perform a youtube search
- - /ytvideo <link> or /ytvideo <link>: Downlods a video or audio from a youtube video to the bots local server
+ - /ytaudio <link> or /ytvideo <link>: Downlods a video or audio from a youtube video to the bots local server
 
 """"
 
