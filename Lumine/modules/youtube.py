@@ -177,7 +177,7 @@ __help__ = """
  - `/yt` or `/youtube` <text>: perform a youtube search
  - Downlods a video or audio from a youtube video to the bots local server
 
-""""
+"""
 
 __mod_name__ = "YouTube"
 
