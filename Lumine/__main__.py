@@ -246,8 +246,8 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="Kanzaki",
-                                url="https://t.me/OnePunchUpdates",
+                                text="Kazuma",
+                                url="https://t.me/KazumaclanXD",
                             ),
                         ],
                         [
@@ -256,7 +256,8 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/OnePunchUpdates/29",
                             ),
                             InlineKeyboardButton(
-                            text="Command Help ❓", callback_data="help_back"
+                            text="Guide",
+                            url="https://t.me/
                             ),
                         ],
                         
