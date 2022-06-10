@@ -257,7 +257,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                             text="Guide",
-                            url="https://t.me/
+                            url="https://t.me/"
                             ),
                         ],
                         
