@@ -173,7 +173,11 @@ YOUTUBE_CALLBACKHANDLER = CallbackQueryHandler(
 dispatcher.add_handler(YOUTUBE_HANDLER)
 dispatcher.add_handler(YOUTUBE_CALLBACKHANDLER)
 
-__help__ = """ Use /youtube or /yt """
+__help__ = """
+ - /yt or /youtube <text>: perform a youtube search
+ - /ytvideo <link> or /ytvideo <link>: Downlods a video or audio from a youtube video to the bots local server
+
+""""
 
 __mod_name__ = "YouTube"
 
