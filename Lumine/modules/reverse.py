@@ -134,7 +134,7 @@ def reverse(update: Update, context: CallbackContext):
         if len(images) == 0:
             deletion(update, context, xx.edit_text(
                 f"[{guess}]({fetchUrl})\n[Visually similar images]({imgspage})"
-                "\nCouldn't fetch any images.",
+                "\nHere is your results.",
                 parse_mode="Markdown",
                 disable_web_page_preview=True,
             ))
@@ -217,11 +217,11 @@ def deletion(update: Update, context: CallbackContext, delmsg):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    ["reverse","grs"], reverse, admin_ok=True, run_async=True
+    ["reverse","grs","pp","p"], reverse, admin_ok=True, run_async=True
 )
 
 dispatcher.add_handler(REVERSE_HANDLER)
 
 __mod_name__ = "Reverse"
-__command_list__ = ["reverse", "grs"]
+__command_list__ = ["reverse", "grs", "pp", "p"]
 __handlers__ = [REVERSE_HANDLER]
