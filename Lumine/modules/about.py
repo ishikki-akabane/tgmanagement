@@ -4,7 +4,7 @@ Powerful Abilities
 •  ❤️
 • File To Link and URL Upload 📂
 • Youtube Downloader 🎵
-• 
+
 Developer [Ishikki Akabane](https://t.me/ishikki_akabane)
 Support Group [Support](https://t.me/suppportXD)
 """
