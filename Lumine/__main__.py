@@ -253,7 +253,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Federation",
-                                url="https://t.me/OnePunchUpdates/29",
+                                url="https://t.me/KazumaclanXD/23"
                             ),
                             InlineKeyboardButton(
                             text="Guide",
