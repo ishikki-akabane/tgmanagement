@@ -108,11 +108,11 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-Lumine_IMG = "https://telegra.ph/file/7723370b4e33f2914397a.png"
+Lumine_IMG = "https://te.legra.ph/file/53c9ad02dcf2feec00446.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Lumine is hosted on its own server and doesn't require any donations as of now but \
-You can donate to my Bot Onwer, @llxrXD.
+You can donate to my Bot Onwer, @doujin_hunter.
 There are two ways of supporting him; [PayPal](paypal.me/lightlegendxr), or [Ko-fi](ko-fi.com/lightlegendxr)."""
 
 IMPORTED = {}
@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Lumine to your group",
+                                text="💜 Add Gojo to your group 💜",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/LumineBotSupport",
+                                url=f"https://t.me/jujutsu_kaisen_sup",
                             ),
                         ],
                         [
@@ -252,8 +252,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Source code",
-                                url="https://github.com/LightLegendXR/Lumine",
+                                text="kazuma clan",
+                                url="",
                             )
                         ],
                         [
