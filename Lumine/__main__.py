@@ -111,7 +111,7 @@ And the following:
 Lumine_IMG = "https://te.legra.ph/file/53c9ad02dcf2feec00446.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Lumine is hosted on its own server and doesn't require any donations as of now but \
+Gojo satoru is hosted on its own server and doesn't require any donations as of now but \
 You can donate to my Bot Onwer, @doujin_hunter.
 There are two ways of supporting him; [PayPal](paypal.me/lightlegendxr), or [Ko-fi](ko-fi.com/lightlegendxr)."""
 
@@ -253,7 +253,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="kazuma clan",
-                                url="",
+                                url="https://t.me/KazumaclanXD",
                             )
                         ],
                         [
@@ -267,7 +267,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "Gojo satoru is awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
