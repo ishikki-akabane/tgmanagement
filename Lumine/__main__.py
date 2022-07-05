@@ -73,10 +73,20 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a modular group management bot.
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ʜᴇʟʟᴏ ᴛʜᴇʀᴇ! ɢᴏᴊᴏ sᴀᴛᴏʀᴜ ʜᴇʀᴇ! ɪ ᴀᴍ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ✨
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
 
-You can find my list of available commands with /help.
+ɪ ᴄᴀɴ ᴋᴇᴇᴘ ʏᴏᴜʀ ɢᴄ sᴀғᴇ ғʀᴏᴍ ᴄᴜʀsᴇs ʙʏ :
+❍ ғʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ.
+❍ ᴀᴘᴘʀᴏᴠᴀʟs ᴀɴᴅ ᴅɪsᴀᴘᴘʀᴏᴠᴀʟs.
+❍ ᴋɪʟʟɪɴɢ ᴄᴜʀsᴇs ʙʏ ᴍʏ ʙᴀɴ/ᴍᴜᴛᴇ/ᴡᴀʀɴ ᴘᴏᴡᴇʀs.
+❍ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
+━━━•❅•°•❈ - •°•❅•━━━
+
+𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚂𝙰𝚅𝙴 𝚈𝙾𝚄 𝙰𝙻𝙻 𝙵𝚁𝙾𝙼 𝙱𝙰𝙳 𝙲𝚄𝚁𝚂𝙴𝚂 𝙰𝙽𝙳 𝚂𝙴𝙴 𝙼𝚈 100% 𝙿𝙾𝚆𝙴𝚁
+
+Type /help to see my sexy features
 """
 
 HELP_STRINGS = """
