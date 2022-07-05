@@ -232,37 +232,39 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="💜 Add Gojo to your group 💜",
+                                text="☑️ Add me",
                                 url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
+                                    context.bot.username,
                                 ),
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/jujutsu_kaisen_sup",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
-                            )
+                                text="🚑 Support",
+                                url="https://t.me/supportt",
+                            ),
+                            InlineKeyboardButton(
+                                text="🔔 Updates",
+                                url="https://t.me/OnePunchUpdates",
+                            ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="kazuma clan",
+                                text="Owner",
+                                url="https://t.me/Doujin_hunter",
+                            ),
+                            InlineKeyboardButton(
+                                text="Kazuma Clan",
                                 url="https://t.me/KazumaclanXD",
-                            )
+                            ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Recommended federation",
-                                url="https://t.me/LLXRFed/3",
-                            )
+                                text="Help",
+                                callback_data="help_back",
+                            ),
                         ],
-                    ]
+                    ],
                 ),
             )
     else:
