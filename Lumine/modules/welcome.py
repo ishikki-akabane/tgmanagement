@@ -261,9 +261,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome yourself
             elif new_mem.id == bot.id:
                 update.effective_message.reply_text(
-                    "ʜᴇʏ, ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀꜱ
-
-ᴀɴʏ Qᴜɪʀᴇꜱ? @jujutsu_kaisen_sup",
+                    "Hey Gojo here thanks for adding, any bug? @jujutsu_kaisen_sup",
                     reply_to_message_id=reply,
                     disable_web_page_preview=True,
                 )
