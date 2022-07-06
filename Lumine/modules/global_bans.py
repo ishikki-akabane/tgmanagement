@@ -162,7 +162,7 @@ def gban(update: Update, context: CallbackContext):
 
         return
 
-    message.reply_text("On it!")
+    message.reply_text("Yeah,lemme kill that curse spirt!")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
@@ -246,7 +246,7 @@ def gban(update: Update, context: CallbackContext):
         send_to_list(
             bot,
             SUDO_USERS + SUPPORT_USERS,
-            f"Gban complete! (User banned in <code>{gbanned_chats}</code> chats)",
+            f"Gban complete!  (User banned in <code>{gbanned_chats}</code> chats)",
             html=True,
         )
 
