@@ -217,7 +217,16 @@ def deletion(update: Update, context: CallbackContext, delmsg):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    "reverse", reverse, admin_ok=True, run_async=True
+    ["reverse","grs","pp","p"], reverse, admin_ok=True, run_async=True
 )
 
+__mod_name__ = "Reverse"
+
+__help__ = """*Image reverse:*
+ • `/reverse`: does a *reverse image search* of the media which it was replied to.
+ • You can also use `/grs` ,`/pp` or `/p`.
+ """
+
+__command_list__ = ["reverse", "grs", "pp", "p"]
+__handlers__ = [REVERSE_HANDLER]
 dispatcher.add_handler(REVERSE_HANDLER)
