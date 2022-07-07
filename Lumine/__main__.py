@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support",
-                                url="https://t.me/supportt",
+                                url="https://t.me/jujutsu_kaisen_sup",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
