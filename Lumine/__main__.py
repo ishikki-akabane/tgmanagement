@@ -78,7 +78,7 @@ PM_START_TEXT = """
 gojo satoru 
 
 ══════════════════════
-✟ "Don't Worry, I'm the strongest." ✟
+✟ "Dont Worry, Im the strongest." ✟
 ══════════════════════
 
 ✪ ғʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ.
@@ -86,7 +86,7 @@ gojo satoru
 ✪ ᴋɪʟʟɪɴɢ ᴄᴜʀsᴇs ʙʏ ᴍʏ ʙᴀɴ/ᴍᴜᴛᴇ/ᴡᴀʀɴ ᴘᴏᴡᴇʀs.
 ✪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
 
-ᴛʏᴘᴇ /help ᴛᴏ ꜱᴇᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ
+ᴛʏᴘᴇ /help ᴛᴏ ꜱᴇᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ.
 """
 
 HELP_STRINGS = """
