@@ -259,12 +259,7 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/KazumaclanXD",
                             ),
                         ],
-                        [
-                            InlineKeyboardButton(
-                                text="Help",
-                                callback_data="help_back",
-                            ),
-                        ],
+
                     ],
                 ),
             )
