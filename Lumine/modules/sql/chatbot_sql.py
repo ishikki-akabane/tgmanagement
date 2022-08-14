@@ -1,6 +1,6 @@
 import threading
 
-from Yumeko.modules.sql import BASE, SESSION
+from Lumine.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String
 
 
