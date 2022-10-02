@@ -243,17 +243,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/",
                             ),
                             InlineKeyboardButton(
                                 text="Kazuma",
-                                url="https://t.me/KazumaclanXD",
+                                url="https://t.me/",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="Federation",
-                                url="https://t.me/KazumaclanXD/23"
+                                url="https://t.me/"
                             ),
                             InlineKeyboardButton(
                             text="Guide",
