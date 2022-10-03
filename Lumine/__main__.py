@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/",
                             ),
                             InlineKeyboardButton(
-                                text="Kazuma",
+                                text="Unknown",
                                 url="https://t.me/",
                             ),
                         ],
