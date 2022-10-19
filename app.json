@@ -1,13 +1,13 @@
 {
-   "name": "Zhongli",
+   "name": "RUKA",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "group",
          "manager",
-         "Zhongli"
+         "Ishikki_akabane"
       ],   
-   "repository": "https://github.com/titu3e/Zhongli",
+   "repository": "https://github.com/ishikki_akabane/tgmanagement",
    "addons": [
       {
          "options": {
@@ -33,17 +33,17 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "14681826"
+         "value": ""
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "add59ab14dbbccf3c92c65ca4477f2fa"
+         "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": "postgres://zhlhysxy:L_d73cQARRtSM7f6iIkeg2yPwtNbqHmK@tiny.db.elephantsql.com/zhlhysxy"
+         "value": ""
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
@@ -72,17 +72,17 @@
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "URWAVM2BWHQPCWCZ"
+         "value": ""
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "TNOI2DHS7GLK"
+         "value": ""
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Minato Namikaze support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1469565088"
+         "value": "5030730429"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -96,7 +96,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/manhwarecommend"
+         "value": "https://t.me/ishikki_akabane"
       },	  
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
