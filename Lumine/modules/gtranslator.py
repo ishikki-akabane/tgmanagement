@@ -13,11 +13,8 @@ from Lumine import dispatcher
 from Lumine.modules.disable import DisableAbleCommandHandler
 from gpytranslate import SyncTranslator
 
-
 trans = SyncTranslator()
 
-
-@run_async
 def translate(update: Update, context: CallbackContext) -> None:
     message = update.effective_message
     reply_msg = message.reply_to_message
@@ -48,7 +45,6 @@ def translate(update: Update, context: CallbackContext) -> None:
     message.reply_text(reply, parse_mode=ParseMode.HTML)
 
 
-@run_async
 def languages(update: Update, context: CallbackContext) -> None:
     update.effective_message.reply_text(
         "Click on the button below to see the list of supported language codes.",
@@ -66,9 +62,9 @@ def languages(update: Update, context: CallbackContext) -> None:
     )
 
 
-TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], translate)
+TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], translate, run_async=True)
 LANGUAGE_HANDLER = DisableAbleCommandHandler(
-    ["lang", "langs"], languages
+    ["lang", "langs"], languages, run_async=True
 )
 
 dispatcher.add_handler(TRANSLATE_HANDLER)
