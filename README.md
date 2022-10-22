@@ -1,30 +1,19 @@
-![Lumine](https://telegra.ph/file/7723370b4e33f2914397a.png)
-# Lumine
+![Lumine](https://te.legra.ph/file/f2358d1e588ae97de2cbd.jpg)
+# Ruka
 <p align="center">
-<a href="https://www.codacy.com/gh/LightLegendXR/Lumine/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LightLegendXR/Lumine&amp;utm_campaign=Badge_Grade" alt="Codacy Badge">
-<img src="https://app.codacy.com/project/badge/Grade/972e73015aaa4096bf109a79acae8afb" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="Libraries.io dependency status for GitHub repo"> <img src="https://img.shields.io/librariesio/github/LightLegendXR/Lumine?style=flat&logo=github&color=red" /> </a>
-<a href="http://hits.dwyl.com/LightLegendXR/Lumine" alt="HitCount"> <img src="http://hits.dwyl.com/LightLegendXR/Lumine.svg" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine/network/members" alt="GitHub stars"> <img src="https://img.shields.io/github/stars/LightLegendXR/Lumine?style=flat&logo=github&color=yellow" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/LightLegendXR/Lumine" /> </a>
 </p>
 <p align="center">
-<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/LightLegendXR/Lumine" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/LightLegendXR/Lumine?style=flat&logo=github" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/LightLegendXR/Lumine?color=success" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/LightLegendXR/Lumine?style=flat&logo=github&color=red" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/LightLegendXR/Lumine?style=flat&logo=github&color=success" /> </a>
 </p>
 <p align="center">
 <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="Python supported versions"> <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="pypi version"> <img src="https://img.shields.io/badge/pypi-v13.8.1-blue" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/LightLegendXR/Lumine" /> </a>
+<a href="https://github.com/ishikki_akabane/tgmanagement" alt="Python supported versions"> <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue" /> </a>
+<a href="https://github.com/ishikki_akabane/tgmanagement" alt="pypi version"> <img src="https://img.shields.io/badge/pypi-v13.8.1-blue" /> </a>
+<a href="https://github.com/ishikki_akabane/tgmanagement" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/LightLegendXR/Lumine" /> </a>
 <a href="https://github.com/LightLegendXR/Lumine/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/github/license/LightLegendXR/Lumine?style=flat&logo=github&color=success" /> </a>
 </p>
 <p align="center">
-<a href="" alt="LightLegendXR"> <img src="https://img.shields.io/badge/built%20by-LightLegendXR-blue" /> </a>
-<a href="https://github.com/LightLegendXR/Lumine/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/maintained%3F-yes-blue.svg" /> </a>
+<a href="" alt="ishikki_akabane"> <img src="https://img.shields.io/badge/built%20by-ishikki_akabane-blue" /> </a>
+<a href="https://github.com/ishikki-akabane/tgmanagement/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/maintained%3F-yes-blue.svg" /> </a>
 <a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-blue.svg" /> </a>
 </p>
 
@@ -32,11 +21,11 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 Originally a AstrakoBot fork, Lumine evolved further and was built to be more robust. 
 
-* Bot link:  <a href="https://t.me/MissLumineBot" alt="Lumine"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Lumine-yellow" /> </a>
+* Bot link:  <a href="https://t.me/Rukaaxdbot" alt="Ruka"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-ruka-yellow" /> </a>
 
-* Support group:  <a href="https://t.me/LumineBotSupport" alt="LumineBotSupport"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+* Support group:  <a href="https://t.me/suppporttxd" alt="BotSupport"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
-* Recommended federation:  <a href="https://t.me/LLXRFed/3" alt="LLXRFed"> <img src="https://img.shields.io/badge/🚫-LLXRFed-red" /> </a>
+* Recommended federation:  <a href="https://t.me/kazumaclanXD/6" alt="Kazuma Clan"> <img src="https://img.shields.io/badge/🚫-Kazuma Clan-red" /> </a>
 
 In support group you can ask for help, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
@@ -44,7 +33,7 @@ In support group you can ask for help, discover/request new features, report bug
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @LumineBotSupport to your own support chat
+ - Edit any mentions of @suppporttxd to your own support chat
  - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors
  
@@ -59,7 +48,7 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/titu3e/Zhongli)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ishikki-Akabane/tgmanagement)
 
 </details>   
 <details>
