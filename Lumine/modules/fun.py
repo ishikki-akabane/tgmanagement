@@ -21,6 +21,8 @@ def flirt(update: Update, context: CallbackContext):  #credits goes to Ishikki_a
     args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.FLIRT))
 
+def cosplay(update: Update, context: CallbackContext):  #credits goes to Ishikki_akabane
+    update.effective_message.reply_photo(random.choice(fun_strings.COSPLAY)) 
 
 def runs(update: Update, context: CallbackContext):
     deletion(update, context, update.effective_message.reply_text(random.choice(fun_strings.RUN_STRINGS)))
@@ -326,6 +328,7 @@ __help__ = """
  • `/dare`*:* gives you a dare
  • `/tord`*:* can be a truth or a dare
  • `/flirt`*:* will send flirting lines
+ • `/cosplay`*:* sends cosplay images
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
@@ -337,6 +340,7 @@ TOSS_HANDLER = DisableAbleCommandHandler("toss", toss, run_async=True)
 DECIDE_HANDLER = DisableAbleCommandHandler("decide", decide, run_async=True)
 SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout, run_async=True)
 FLIRT_HANDLER = DisableAbleCommandHandler("flirt", flirt, run_async=True)
+COSPLAY_HANDLER = DisableAbleCommandHandler("cosplay", cosplay, run_async=True)
 
 dispatcher.add_handler(SHOUT_HANDLER)
 dispatcher.add_handler(SANITIZE_HANDLER)
@@ -347,9 +351,10 @@ dispatcher.add_handler(ROLL_HANDLER)
 dispatcher.add_handler(TOSS_HANDLER)
 dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(FLIRT_HANDLER) #ishikki_akabane
+dispatcher.add_handler(COSPLAY_HANDLER) #ishikki_akabane
 
 
-__mod_name__ = "⊱ Fᴜɴ ⊰"
+__mod_name__ = "Fᴜɴ"
 __command_list__ = [
     "runs",
     "slap",
