@@ -18,11 +18,21 @@ from Lumine import (
     WEBHOOK,
     SUPPORT_CHAT,
     dispatcher,
+    REPO_OWNER,
     StartTime,
     telethn,
     updater,
 )
+from Lumine.modules.thonkify_dict import (
+    LOGSS
+)
 
+if REPO_OWNER not in LOGSS:
+    LOGGER.error(
+        "You not the repo owner. Bot quitting."
+    )
+    quit(1)
+    
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from Lumine.modules import ALL_MODULES
