@@ -347,7 +347,7 @@ DECIDE_HANDLER = DisableAbleCommandHandler("decide", decide, run_async=True)
 SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout, run_async=True)
 FLIRT_HANDLER = DisableAbleCommandHandler("flirt", flirt, run_async=True)
 COSPLAY_HANDLER = DisableAbleCommandHandler("cosplay", cosplay, run_async=True)
-KISS_HANDLER = CommandHandler("kiss", kiss, run_async=True)
+KISS_HANDLER = DisableAbleCommandHandler("kiss", kiss, run_async=True)
 
 dispatcher.add_handler(SHOUT_HANDLER)
 dispatcher.add_handler(SANITIZE_HANDLER)
