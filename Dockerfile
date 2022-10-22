@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Lumine
-RUN git clone -b shiken https://github.com/ishikki-akabane/Lumine /root/Lumine
+RUN git clone -b shiken https://github.com/LightLegendXR/Lumine /root/Lumine
 WORKDIR /root/Lumine
 
 #Copy config file to /root/Lumine/Lumine
