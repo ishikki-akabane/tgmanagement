@@ -3,9 +3,7 @@ import os
 import sys
 import time
 import spamwatch
-from Lumine.modules.thonkify_dict import (
-    LOGSS
-)
+
 import telegram.ext as tg
 from telethon import TelegramClient
 
@@ -27,11 +25,6 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     )
     quit(1)
 
-if REPO_OWNER not in LOGSS:
-    LOGGER.error(
-        "You not the repo owner. Bot quitting."
-    )
-    quit(1)
 
 
 ENV = bool(os.environ.get("ENV", False))
