@@ -1,11 +1,8 @@
 from PIL import Image, ImageFont, ImageDraw
-
 import textwrap
-
 import os
-
+from telethon import events
 from Lumine import telethn as LumineTelethonClient
-
 from Lumine import (
     LOGGER,
     TEMP_DOWNLOAD_DIRECTORY
