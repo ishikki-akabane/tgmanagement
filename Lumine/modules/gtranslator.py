@@ -1,62 +1,78 @@
-# Google Translator Module from @SayaAman_bot
-# By @ShaDisNX255
+import json
+import os
 
-from gpytranslate import SyncTranslator
-from Lumine.modules.language import gs
-from Lumine.modules.disable import DisableAbleCommandHandler
+import requests
+from telegram import (
+    ParseMode,
+    Update,
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+)
+from telegram.ext import CallbackContext, run_async
 from Lumine import dispatcher
+from Lumine.modules.disable import DisableAbleCommandHandler
+from gpytranslate import SyncTranslator
 
-def get_help(chat):
-    return gs(chat, "gtranslate_help")
 
-from telegram import ParseMode, Update
-from telegram.ext import CallbackContext
+trans = SyncTranslator()
 
-def translate(update: Update, context: CallbackContext):
+
+@run_async
+def translate(update: Update, context: CallbackContext) -> None:
     message = update.effective_message
-    trl = SyncTranslator()
-    if message.reply_to_message and (message.reply_to_message.text or message.reply_to_message.caption):
-        if len(message.text.split()) == 1:
-            message.delete()
-            return
-        target = message.text.split()[1]
-        if message.reply_to_message.text:
-            text = message.reply_to_message.text
+    reply_msg = message.reply_to_message
+    if not reply_msg:
+        message.reply_text("Reply to a message to translate it!")
+        return
+    if reply_msg.caption:
+        to_translate = reply_msg.caption
+    elif reply_msg.text:
+        to_translate = reply_msg.text
+    try:
+        args = message.text.split()[1].lower()
+        if "//" in args:
+            source = args.split("//")[0]
+            dest = args.split("//")[1]
         else:
-            text = message.reply_to_message.caption
-        detectlang = trl.detect(text)
-        try:
-            tekstr = trl(text, targetlang=target)
-        except ValueError as err:
-            message.reply_text(f"Error: `{str(err)}`", parse_mode=ParseMode.MARKDOWN)
-            return
-    else:
-        if len(message.text.split()) <= 2:
-            message.delete()
-            return
-        target = message.text.split(None, 2)[1]
-        text = message.text.split(None, 2)[2]
-        detectlang = trl.detect(text)
-        try:
-            tekstr = trl(text, targetlang=target)
-        except ValueError as err:
-            message.reply_text("Error: `{}`".format(str(err)), parse_mode=ParseMode.MARKDOWN)
-            return
+            source = trans.detect(to_translate)
+            dest = args
+    except IndexError:
+        source = trans.detect(to_translate)
+        dest = "en"
+    translation = trans(to_translate, sourcelang=source, targetlang=dest)
+    reply = (
+        f"<b>Translated from {source} to {dest}</b>:\n"
+        f"<code>{translation.text}</code>"
+    )
 
-    message.reply_text(f"*Translated from {detectlang}:*\n```{tekstr.text}```", parse_mode=ParseMode.MARKDOWN)
+    message.reply_text(reply, parse_mode=ParseMode.HTML)
 
 
-__help__ = """
-• `/tr` or `/tl` (language code) as reply to a long message
-*Example:* 
-  `/tr en`*:* translates something to english
-  `/tr hi-en`*:* translates hindi to english
-"""
+@run_async
+def languages(update: Update, context: CallbackContext) -> None:
+    update.effective_message.reply_text(
+        "Click on the button below to see the list of supported language codes.",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text="Language codes",
+                        url="https://telegra.ph/Lang-Codes-03-19-3",
+                    ),
+                ],
+            ],
+            disable_web_page_preview=True,
+        ),
+    )
 
-TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], translate, run_async=True)
+
+TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], translate)
+LANGUAGE_HANDLER = DisableAbleCommandHandler(
+    ["lang", "langs"], languages
+)
 
 dispatcher.add_handler(TRANSLATE_HANDLER)
+dispatcher.add_handler(LANGUAGE_HANDLER)
 
-__mod_name__ = "Translator"
+
 __command_list__ = ["tr", "tl"]
-__handlers__ = [TRANSLATE_HANDLER]
