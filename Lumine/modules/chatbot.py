@@ -40,7 +40,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "RUKA AI Chatbot disable by {}.".format(mention_html(user.id, user.first_name)),
+                "Hinata AI Chatbot disable by {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
@@ -66,7 +66,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "RUKA AI Chatbot enable by {}.".format(mention_html(user.id, user.first_name)),
+                "Hinata AI Chatbot enable by {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
@@ -117,7 +117,7 @@ def chatbot(update: Update, context: CallbackContext):
             return
         Message = message.text
         bot.send_chat_action(chat_id, action="typing")
-        kukiurl = requests.get('http://Kukiapi.xyz/api/apikey=1469565088-KUKITr4Nfj8II4/Zerotwo/@ishikki_akabane/message='+Message)
+        kukiurl = requests.get('http://Kukiapi.xyz/api/apikey=1469565088-KUKITr4Nfj8II4/zerotwo/@ishikki_akabane/message='+Message)
         Kuki = json.loads(kukiurl.text)
         kuki = Kuki['reply']
         sleep(0.3)
@@ -125,7 +125,7 @@ def chatbot(update: Update, context: CallbackContext):
 
 def list_all_chats(update: Update, context: CallbackContext):
     chats = sql.get_all_kuki_chats()
-    text = "<b>Ruka Enabled Chats</b>\n"
+    text = "<b>Hinata Enabled Chats</b>\n"
     for chat in chats:
         try:
             x = context.bot.get_chat(int(*chat))
