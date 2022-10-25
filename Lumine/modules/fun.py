@@ -30,6 +30,12 @@ def kiss(update, context):   #credits goes to Ishikki_akabane
     target = "kiss"
     msg.reply_video(nekos.img(target)) 
 
+def hug(update, context):   #credits goes to Ishikki_akabane
+    msg = update.effective_message
+    target = "cuddle"
+    msg.reply_video(nekos.img(target))
+    
+    
 def runs(update: Update, context: CallbackContext):
     deletion(update, context, update.effective_message.reply_text(random.choice(fun_strings.RUN_STRINGS)))
 
@@ -335,6 +341,7 @@ __help__ = """
  • `/tord`*:* can be a truth or a dare
  • `/flirt`*:* will send flirting lines
  • `/cosplay`*:* sends cosplay images
+ • `/hug`*:* give a hug
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)
@@ -348,6 +355,7 @@ SHOUT_HANDLER = DisableAbleCommandHandler("shout", shout, run_async=True)
 FLIRT_HANDLER = DisableAbleCommandHandler("flirt", flirt, run_async=True)
 COSPLAY_HANDLER = DisableAbleCommandHandler("cosplay", cosplay, run_async=True)
 KISS_HANDLER = DisableAbleCommandHandler("kiss", kiss, run_async=True)
+HUG_HANDLER = DisableAbleCommandHandler("hug", hug, run_async=True)
 
 dispatcher.add_handler(SHOUT_HANDLER)
 dispatcher.add_handler(SANITIZE_HANDLER)
@@ -359,7 +367,8 @@ dispatcher.add_handler(TOSS_HANDLER)
 dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(FLIRT_HANDLER) #ishikki_akabane
 dispatcher.add_handler(COSPLAY_HANDLER) #ishikki_akabane
-dispatcher.add_handler(KISS_HANDLER) ##ishikki_akabane
+dispatcher.add_handler(KISS_HANDLER) #ishikki_akabane
+dispatcher.add_handler(HUG_HANDLER)  #ishikki_akabane
 
 
 __mod_name__ = "Fᴜɴ"
