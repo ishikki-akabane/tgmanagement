@@ -99,7 +99,7 @@ Type /help to see all the commands.
 """
 
 HELP_STRINGS = """
-Hi Bᴀᴇ! I'ʍ *Ruka Sarashina*
+Hi Bᴀᴇ! I'ʍ *Hinata Hyuga*
 I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw fun ᴇxᴛrᴀs! Hᴀvᴇ ᴀ lᴏᴏᴋ ᴀᴛ ᴛhᴇ fᴏllᴏwing fᴏr ᴀn idᴇᴀ ᴏf sᴏʍᴇ ᴏf ᴛhᴇ ᴛhings I ᴄᴀn hᴇlᴩ yᴏu wiᴛh.
 """.format(
     dispatcher.bot.first_name,
@@ -113,13 +113,13 @@ HELP_IMG = (
 )
 
 LUM_IMG= (
-          "https://te.legra.ph/file/0b52368c526e7a494c6c9.mp4",
+          "https://te.legra.ph/file/0acd907c5232ecc86aa46.mp4",
           )
 
 Lumine_IMG = "https://telegra.ph/file/501c99ff832392d1d06d6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Ruka is hosted on its own server and require donations as of now but \
+Hinata is hosted on its own server and require donations as of now but \
 You can donate to the original writer of the Base code, @ishikki_akabane
 There are two ways of supporting him; [Group](https://t.me/manhwarecommend)."""
 
